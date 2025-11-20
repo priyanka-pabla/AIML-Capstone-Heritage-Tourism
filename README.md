@@ -114,7 +114,7 @@ def recommend_places(place_name, similarity_df, n=5):
 
     return recs_df
 
-Visualization function:
+**Visualization function:**
 
 def plot_recommendations(place_name, similarity_df, n=5):
     recs = recommend_places(place_name, similarity_df, n)
