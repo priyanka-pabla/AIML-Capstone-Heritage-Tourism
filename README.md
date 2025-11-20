@@ -99,7 +99,7 @@ Analyze tourism data and build an Item-Based Collaborative Filtering model to re
 - Calculated item-based cosine similarity  
 
 **Recommendation function:**
-```python
+
 def recommend_places(place_name, similarity_df, n=5):
     if place_name not in similarity_df.columns:
         return f"No data available for {place_name}"
@@ -113,10 +113,9 @@ def recommend_places(place_name, similarity_df, n=5):
     }).reset_index(drop=True)
 
     return recs_df
+
 Visualization function:
 
-python
-Copy code
 def plot_recommendations(place_name, similarity_df, n=5):
     recs = recommend_places(place_name, similarity_df, n)
     print(f"Top {n} recommendations for '{place_name}':\n")
@@ -157,14 +156,9 @@ Interactive dashboard
 
 ⚙️ Requirements
 Install dependencies:
-
-bash
-Copy code
 pip install -r requirements.txt
-requirements.txt contents:
 
-ini
-Copy code
+requirements.txt contents:
 tensorflow==2.19.0
 keras==3.10.0
 numpy==2.0.2
