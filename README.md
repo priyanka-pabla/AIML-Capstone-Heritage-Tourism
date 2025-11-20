@@ -128,7 +128,8 @@ def plot_recommendations(place_name, similarity_df, n=5):
     plt.title(f"Top {n} Similar Places to {place_name}")
     plt.gca().invert_yaxis()
     plt.show()
-📊 Example Output
+
+**📊 Example Output**
 Recommendations for "Monumen Nasional":
 
 Recommended Place	Similarity Score
@@ -138,23 +139,23 @@ Museum Sonobudoyo Unit I	0.2601
 Dunia Fantasi	0.2524
 Situ Patenggang	0.2411
 
-🧠 Insights & Learnings
-Tourists prefer Amusement Parks and Nature Attractions
+**🧠 Insights & Learnings**
+-Tourists prefer Amusement Parks and Nature Attractions
 
-Similar tourist spots can be predicted using rating behavior
+-Similar tourist spots can be predicted using rating behavior
 
-Collaborative Filtering effectively recommends destinations
+-Collaborative Filtering effectively recommends destinations
 
-🚀 Future Enhancements
-Hybrid recommendation model (content + CF)
+**🚀 Future Enhancements**
+-Hybrid recommendation model (content + CF)
 
-Incorporate user context (age, city, budget)
+-Incorporate user context (age, city, budget)
 
-Neural Collaborative Filtering (NCF)
+-Neural Collaborative Filtering (NCF)
 
-Interactive dashboard
+-Interactive dashboard
 
-⚙️ Requirements
+**⚙️ Requirements**
 Install dependencies:
 pip install -r requirements.txt
 
@@ -167,8 +168,9 @@ matplotlib==3.10.0
 opencv-python==4.12.0
 Pillow==11.3.0
 scikit-learn==1.6.1
-🙌 Author
+
+**🙌 Author**
 Priyanka Pabla
 AIML Postgraduate Program – Capstone Project
 
-🎉 End of Project
+**🎉 End of Project**
